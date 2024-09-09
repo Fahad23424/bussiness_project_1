@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Fitness </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- This link is for ubuntu font style  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /*CSS Reset*/
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("imges/img.jpg");
+        color: white;
+        font-family: "Ubuntu", sans-serif;
+      }
+      .left {
+        position: absolute;
+        top: 22px;
+        left: 60px;
+        display: inline-block;
+        /* border: 2px solid green; */
+      }
+      .left img {
+        width: 100px;
+      }
+      .left div {
+        font-size: 20px;
+        line-height: 19px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .mid {
+        width: 36%;
+        margin: 35px auto;
+        display: block;
+        /* border: 2px solid yellow; */
+      }
+      .right {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        display: inline-bock;
+        /* border: 2px solid blue; */
+      }
+      .navbar li {
+        display: inline-block;
+        /* font-size: 25px; */
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 30px;
+      }
+      .navbar li a.active,
+      .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+      }
+      .btn {
+        font-family: "Ubuntu", sans-serif;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        margin: 0px 10px;
+        /* border: 2px solid yellow; */
+        border-radius: 10px;
+        font-size: 25px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: aqua;
+        color: black;
+      }
+      .container {
+        /* border: 3px solid green ; */
+        width: 34%;
+        margin: 60px 40px;
+        padding: 40px 15px;
+        border-radius: 10px;
+      }
+      .form-group input {
+        text-align: center;
+        /* border: 2px solid green; */
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+        padding: 4px;
+        border-radius: 10px;
+        font-size: 25px;
+        font-family: "Ubuntu", sans-serif;
+      }
+      .container h1 {
+        text-align: center;
+      }
+      .container button {
+        width: 58%;
+        display: block;
+        margin: 15px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- left for my  website name and logo  -->
+      <div class="left">
+        <img src="imges/image.png" alt="no " />
+        
+      </div>
+      <!-- mid for navigation bar  -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Calculator</a></li>
+          <li><a href="#">Contact us </a></li>
+        </ul>
+      </div>
+      <!-- right for buttons -->
+      <div class="right">
+        <button class="btn">call us</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym in Islamabad</h1>
+      <form action="non.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your gender " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your locality " />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your phone number" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your email " />
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
